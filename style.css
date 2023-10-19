@@ -1,0 +1,62 @@
+.b{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 20px solid #000;
+   
+    border-image: linear-gradient(blue,violet,purple) 30 stretch;
+    
+}
+.b1{
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 40px solid #000;
+     border-image-source: url(image/download.png) ;
+    border-image-slice: 50;
+    border-image-repeat: repeat;
+}
+.box{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: linear-gradient(to right,red,green,lime)
+}
+.box1{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: linear-gradient(to left,red,tomato,green,lime,blue);
+}
+.box2{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: linear-gradient(180deg,red,tomato,green,lime,blue);
+}
+.box3{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: linear-gradient(360deg,red,tomato,green,lime,blue);
+}
+.box4{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: linear-gradient(red 10%,green 30%,blue 60%, blue 60%,blue 60%) ;
+}
+.box4{
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%) ;
+}
